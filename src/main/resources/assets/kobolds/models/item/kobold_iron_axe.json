@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kobolds:items/kobold_iron_axe"
+  }
+}

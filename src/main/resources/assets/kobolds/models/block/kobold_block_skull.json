@@ -1,0 +1,9 @@
+{
+  "parent": "kobolds:custom/kobold_skull",
+  "textures": {
+    "all": "kobolds:blocks/kobold_skull",
+    "particle": "kobolds:blocks/kobold_skull_particles",
+    "0": "kobolds:blocks/kobold_skull"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,133 @@
+{
+  "kobold_trade": {
+    "category": "hostile",
+    "subtitle": "subtitles.kobold_trade",
+    "sounds": [
+      {
+        "name": "kobolds:trade_1",
+        "stream": false
+      },
+      {
+        "name": "kobolds:trade_2",
+        "stream": false
+      },
+      {
+        "name": "kobolds:trade_3",
+        "stream": false
+      }
+    ]
+  },
+  "kobold_purr": {
+    "category": "hostile",
+    "subtitle": "subtitles.kobold_purr",
+    "sounds": [
+      {
+        "name": "kobolds:kobold_purr_1",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_purr_2",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_purr_3",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_purr_4",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_purr_5",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_purr_6",
+        "stream": false
+      }
+    ]
+  },
+  "kobold_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.kobold_death",
+    "sounds": [
+      {
+        "name": "kobolds:kobold_death_1",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_death_2",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_death_3",
+        "stream": false
+      }
+    ]
+  },
+  "kobold_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.kobold_hurt",
+    "sounds": [
+      {
+        "name": "kobolds:kobold_hit_1",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_hit_2",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_hit_3",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_hit_4",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_hit_5",
+        "stream": false
+      }
+    ]
+  },
+  "kobold_idle": {
+    "category": "hostile",
+    "subtitle": "subtitles.kobold_idle",
+    "sounds": [
+      {
+        "name": "kobolds:kobold_idle_1",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_idle_2",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_idle_3",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_idle_4",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_idle_5",
+        "stream": false
+      },
+      {
+        "name": "kobolds:kobold_idle_6",
+        "stream": false
+      }
+    ]
+  },
+  "music_kobblestone": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kobolds:kobblestone",
+        "stream": true
+      }
+    ]
+  }
+}

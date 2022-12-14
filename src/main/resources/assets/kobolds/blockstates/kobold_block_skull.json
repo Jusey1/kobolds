@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kobolds:block/kobold_block_skull"
+    },
+    "facing=east": {
+      "model": "kobolds:block/kobold_block_skull",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kobolds:block/kobold_block_skull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kobolds:block/kobold_block_skull",
+      "y": 270
+    }
+  }
+}
