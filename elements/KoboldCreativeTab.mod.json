@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Kobolds",
+    "icon": {
+      "value": "CUSTOM:KoboldBlockSkull"
+    },
+    "showSearch": false
+  }
+}

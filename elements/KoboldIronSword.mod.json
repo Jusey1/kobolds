@@ -1,0 +1,34 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "kobold_iron_sword",
+    "customModelName": "Normal",
+    "name": "Kobold Iron Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:KoboldCreativeTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 5.0,
+    "attackSpeed": 2.1,
+    "enchantability": 14,
+    "damageVsEntity": 3.0,
+    "usageCount": 256,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:KoboldIronSword"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
