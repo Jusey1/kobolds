@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "kobolds:kobold_dungeon_desert",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 21,
+    "salt": 231745902
+  }
+}

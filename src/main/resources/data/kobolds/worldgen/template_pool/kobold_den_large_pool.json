@@ -1,0 +1,51 @@
+{
+  "name": "kobolds:koboldlargedenpool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "kobolds:kobold_den_large_1",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "kobolds:kobold_den_large_2",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "kobolds:kobold_den_large_3",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "kobolds:kobold_den_large_4",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "kobolds:kobold_den_large_5",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

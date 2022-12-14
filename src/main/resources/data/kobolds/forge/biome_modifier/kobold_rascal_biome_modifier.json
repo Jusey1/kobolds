@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "kobolds:kobold_rascal",
+    "weight": 45,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

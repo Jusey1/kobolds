@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_horse_armor",
+    "minecraft:gold_block",
+    "minecraft:golden_apple",
+    "minecraft:ender_chest",
+    "minecraft:skeleton_skull",
+    "minecraft:music_disc_11",
+    "minecraft:bell",
+    "minecraft:music_disc_13"
+  ]
+}

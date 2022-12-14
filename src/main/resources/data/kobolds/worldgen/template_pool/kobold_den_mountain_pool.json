@@ -1,0 +1,15 @@
+{
+  "name": "kobolds:koboldmountainpool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "kobolds:kobold_den_mountain",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

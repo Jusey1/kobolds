@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:golden_hoe",
+    "minecraft:golden_axe",
+    "minecraft:golden_carrot",
+    "kobolds:kobold_block_skull",
+    "minecraft:golden_shovel",
+    "minecraft:golden_sword",
+    "minecraft:glistering_melon_slice",
+    "minecraft:golden_pickaxe"
+  ]
+}

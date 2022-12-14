@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "kobolds:kobold_den_large",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 21,
+    "separation": 12,
+    "salt": 998721450
+  }
+}

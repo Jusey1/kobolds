@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "kobolds:kobold_potion_combat"
+    },
+    "title": {
+      "translate": "advancements.kobold_enchanter_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.kobold_enchanter_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kobold_enchanter_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "kobolds:kobold_trader_advancement"
+}

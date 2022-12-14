@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "kobolds:kobold_block_skull"
+    }
+  ],
+  "result": {
+    "item": "kobolds:banner_pattern_kobold"
+  }
+}

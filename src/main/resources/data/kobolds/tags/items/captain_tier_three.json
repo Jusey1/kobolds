@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:heart_of_the_sea",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:totem_of_undying",
+    "minecraft:nether_star",
+    "minecraft:enchanted_golden_apple"
+  ]
+}

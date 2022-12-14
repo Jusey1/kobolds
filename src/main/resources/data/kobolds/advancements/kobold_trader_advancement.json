@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.kobold_trader_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.kobold_trader_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kobold_trader_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "kobolds:kobold_pet_advancement"
+}

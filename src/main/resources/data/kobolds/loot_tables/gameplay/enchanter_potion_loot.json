@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_health",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_water",
+          "weight": 21
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_leaping",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_stealth",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_levitation",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_fire",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_combat",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kobolds:kobold_potion_mining",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

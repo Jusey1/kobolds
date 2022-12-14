@@ -1,0 +1,15 @@
+{
+  "name": "kobolds:kobolddesertpool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "kobolds:kobold_dungeon_desert",
+        "processors": "kobolds:generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
