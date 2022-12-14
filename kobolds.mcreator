@@ -1,0 +1,1009 @@
+{
+  "mod_elements": [
+    {
+      "name": "KoboldIronSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_iron_sword"
+    },
+    {
+      "name": "KoboldIronPickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_iron_pickaxe"
+    },
+    {
+      "name": "KoboldIronAxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_iron_axe"
+    },
+    {
+      "name": "KoboldIronShovel",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_iron_shovel"
+    },
+    {
+      "name": "KoboldBlockSkull",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_block_skull"
+    },
+    {
+      "name": "KoboldCreativeTab",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_creative_tab"
+    },
+    {
+      "name": "AbstractKoboldEntity",
+      "type": "code",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "abstract_kobold_entity"
+    },
+    {
+      "name": "KoboldBaseTick",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_base_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldDeath",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldSpawn",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldTraderInteraction",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_trader_interaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldEnchanterInteraction",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_enchanter_interaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldEngineerInteraction",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_engineer_interaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kobold",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold"
+    },
+    {
+      "name": "KoboldModel",
+      "type": "code",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_model"
+    },
+    {
+      "name": "KoboldChildModel",
+      "type": "code",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_child_model"
+    },
+    {
+      "name": "KoboldWarrior",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_warrior"
+    },
+    {
+      "name": "KoboldsModModels",
+      "type": "code",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobolds_mod_models"
+    },
+    {
+      "name": "KoboldEnchanter",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_enchanter"
+    },
+    {
+      "name": "KoboldPetAdvancement",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_pet_advancement"
+    },
+    {
+      "name": "KoboldTraderAdvancement",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_trader_advancement"
+    },
+    {
+      "name": "KoboldEnchanterAdvancement",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_enchanter_advancement"
+    },
+    {
+      "name": "KoboldEngineerAdvancement",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_engineer_advancement"
+    },
+    {
+      "name": "KoboldChild",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_child"
+    },
+    {
+      "name": "KoboldBaseTickChild",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_base_tick_child",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldEngineer",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_engineer"
+    },
+    {
+      "name": "KoboldPirate",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_pirate"
+    },
+    {
+      "name": "KoboldCaptain",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_captain"
+    },
+    {
+      "name": "ZomboldModel",
+      "type": "code",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombold_model"
+    },
+    {
+      "name": "SkeleboldModel",
+      "type": "code",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "skelebold_model"
+    },
+    {
+      "name": "ZomboldBaseTick",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombold_base_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldZombie",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_zombie"
+    },
+    {
+      "name": "KoboldZombieDrowned",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_zombie_drowned"
+    },
+    {
+      "name": "KoboldSkeleton",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_skeleton"
+    },
+    {
+      "name": "ProspectorProcedure",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prospector_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prospector",
+      "type": "enchantment",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "prospector"
+    },
+    {
+      "name": "KoboldsConfig",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobolds_config",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "KoboldsNewGoals",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobolds_new_goals",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldPotionHealth",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_health"
+    },
+    {
+      "name": "KoboldPotionFire",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_fire"
+    },
+    {
+      "name": "KoboldPotionStealth",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_stealth"
+    },
+    {
+      "name": "KoboldPotionCombat",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_combat"
+    },
+    {
+      "name": "KoboldPotionWater",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_water"
+    },
+    {
+      "name": "KoboldPotionLeaping",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_leaping"
+    },
+    {
+      "name": "KoboldPotionLevitation",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_levitation"
+    },
+    {
+      "name": "KoboldPotionMining",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_potion_mining"
+    },
+    {
+      "name": "KoboldInfinityPotion",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_infinity_potion"
+    },
+    {
+      "name": "KoboldMilkshake",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_milkshake",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscKobblestone",
+      "type": "musicdisc",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_kobblestone"
+    },
+    {
+      "name": "ZomboldSpawn",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombold_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkeleboldSummon",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skelebold_summon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldIronHoe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_iron_hoe"
+    },
+    {
+      "name": "KoboldHarvest",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_harvest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldBanner",
+      "type": "code",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_banner"
+    },
+    {
+      "name": "RascalModel",
+      "type": "code",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rascal_model"
+    },
+    {
+      "name": "KoboldRascal",
+      "type": "livingentity",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_rascal"
+    },
+    {
+      "name": "RascalSpawn",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rascal_spawn",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldRascalFound",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_rascal_found",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldCaptainInteraction",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_captain_interaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldTrade",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_trade",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KoboldArmorModel",
+      "type": "code",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kobold_armor_model"
+    },
+    {
+      "name": "ZombieMixin",
+      "type": "code",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombie_mixin"
+    },
+    {
+      "name": "AbstractIllagerMixin",
+      "type": "code",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "abstract_illager_mixin"
+    },
+    {
+      "name": "VillagerMixin",
+      "type": "code",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_mixin"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "mainhand",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "offhand",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "armor0",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "armor1",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "armor2",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "armor3",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "kobold_trade",
+      "files": [
+        "trade_1",
+        "trade_2",
+        "trade_3"
+      ],
+      "category": "hostile",
+      "subtitle": "Good, deal!"
+    },
+    {
+      "name": "kobold_purr",
+      "files": [
+        "kobold_purr_1",
+        "kobold_purr_2",
+        "kobold_purr_3",
+        "kobold_purr_4",
+        "kobold_purr_5",
+        "kobold_purr_6"
+      ],
+      "category": "hostile",
+      "subtitle": "Churr!"
+    },
+    {
+      "name": "kobold_death",
+      "files": [
+        "kobold_death_1",
+        "kobold_death_2",
+        "kobold_death_3"
+      ],
+      "category": "hostile",
+      "subtitle": "I died!"
+    },
+    {
+      "name": "kobold_hurt",
+      "files": [
+        "kobold_hit_1",
+        "kobold_hit_2",
+        "kobold_hit_3",
+        "kobold_hit_4",
+        "kobold_hit_5"
+      ],
+      "category": "hostile",
+      "subtitle": "Ow!"
+    },
+    {
+      "name": "kobold_idle",
+      "files": [
+        "kobold_idle_1",
+        "kobold_idle_2",
+        "kobold_idle_3",
+        "kobold_idle_4",
+        "kobold_idle_5",
+        "kobold_idle_6"
+      ],
+      "category": "hostile",
+      "subtitle": "Kobold Here!"
+    },
+    {
+      "name": "music_kobblestone",
+      "files": [
+        "kobblestone"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.kobolds.kobold_zombie_spawn_egg": "Zombold Spawn Egg",
+      "subtitles.kobold_hurt": "Ow!",
+      "subtitles.music_kobblestone": "",
+      "entity.kobolds.kobold_zombie_drowned": "Drowned Zombold",
+      "entity.kobolds.kobold_warrior": "Kobold Warrior",
+      "item.kobolds.kobold_potion_water": "Kobold Potion of Water Breathing",
+      "item.kobolds.kobold_child_spawn_egg": "Kobold Child Spawn Egg",
+      "item.kobolds.banner_pattern_kobold": "Banner Pattern",
+      "block.minecraft.banner.kobolds.kobold.brown": "Brown Kobold",
+      "entity.kobolds.kobold": "Kobold",
+      "item.kobolds.kobold_iron_axe": "Kobold Iron Axe",
+      "item.kobolds.banner_pattern_kobold.desc": "Kobold",
+      "entity.kobolds.kobold_enchanter": "Kobold Enchanter",
+      "enchantment.kobolds.prospector": "Prospector",
+      "block.minecraft.banner.kobolds.kobold.cyan": "Cyan Kobold",
+      "block.minecraft.banner.kobolds.kobold.yellow": "Yellow Kobold",
+      "item.kobolds.kobold_potion_levitation": "Kobold Potion of Levitation",
+      "block.minecraft.banner.kobolds.kobold.light_gray": "Light Gray Kobold",
+      "entity.kobolds.kobold_pirate": "Kobold Pirate",
+      "item.kobolds.kobold_iron_pickaxe": "Kobold Iron Pickaxe",
+      "itemGroup.tabkobold_creative_tab": "Kobolds",
+      "block.minecraft.banner.kobolds.kobold.light_blue": "Light Blue Kobold",
+      "subtitles.kobold_purr": "Churr!",
+      "item.kobolds.kobold_potion_combat": "Kobold Potion of Combat",
+      "item.kobolds.kobold_infinity_potion": "Infinity Potion of Healing",
+      "item.kobolds.kobold_potion_fire": "Kobold Potion of Fire Resistance",
+      "item.kobolds.music_disc_kobblestone.desc": "Lorian Ross - Kobblestone",
+      "block.minecraft.banner.kobolds.kobold.orange": "Orange Kobold",
+      "enchantment.kobolds.prospector.desc": "Monsters will have a small chance of dropping emeralds.",
+      "item.kobolds.kobold_warrior_spawn_egg": "Kobold Warrior Spawn Egg",
+      "advancements.kobold_trader_advancement.descr": "Make a deal with a kobold!",
+      "item.kobolds.kobold_potion_leaping": "Kobold Potion of Leaping",
+      "item.kobolds.kobold_pirate_spawn_egg": "Kobold Pirate Spawn Egg",
+      "block.kobolds.kobold_block_skull": "Kobold Skull",
+      "block.minecraft.banner.kobolds.kobold.magenta": "Magenta Kobold",
+      "advancements.kobold_engineer_advancement.title": "Look buddy, I\u0027m an Engineer...",
+      "item.kobolds.kobold_potion_mining": "Kobold Potion of Mining",
+      "item.kobolds.kobold_iron_hoe": "Kobold Iron Hoe",
+      "block.minecraft.banner.kobolds.kobold.green": "Green Kobold",
+      "block.minecraft.banner.kobolds.kobold.white": "White Kobold",
+      "entity.kobolds.kobold_engineer": "Kobold Engineer",
+      "entity.kobolds.kobold_rascal": "Kobold Rascal",
+      "advancements.kobold_engineer_advancement.descr": "Trade with a kobold who solves practical problems.",
+      "subtitles.kobold_idle": "Kobold Here!",
+      "entity.kobolds.kobold_skeleton": "Skelebold",
+      "advancements.kobold_enchanter_advancement.descr": "Trade with a Kobold Enchanter.",
+      "item.kobolds.kobold_spawn_egg": "Kobold Spawn Egg",
+      "advancements.kobold_enchanter_advancement.title": "Pots \u0026 Enchs",
+      "item.kobolds.music_disc_kobblestone": "Music Disc",
+      "block.minecraft.banner.kobolds.kobold.pink": "Pink Kobold",
+      "block.minecraft.banner.kobolds.kobold.black": "Black Kobold",
+      "subtitles.kobold_trade": "Good, deal!",
+      "item.kobolds.kobold_potion_stealth": "Kobold Potion of Stealth",
+      "block.minecraft.banner.kobolds.kobold.gray": "Gray Kobold",
+      "block.minecraft.banner.kobolds.kobold.purple": "Purple Kobold",
+      "item.kobolds.kobold_enchanter_spawn_egg": "Kobold Enchanter Spawn Egg",
+      "entity.kobolds.kobold_child": "Kobold Child",
+      "advancements.kobold_pet_advancement.descr": "Befriend a kobold and have soft tacos later.",
+      "item.kobolds.kobold_iron_shovel": "Kobold Iron Shovel",
+      "item.kobolds.kobold_rascal_spawn_egg": "Kobold Rascal Spawn Egg",
+      "item.kobolds.kobold_iron_sword": "Kobold Iron Sword",
+      "advancements.kobold_pet_advancement.title": "You\u0027re My Friend Now!",
+      "advancements.kobold_trader_advancement.title": "Let\u0027s Make a Deal!",
+      "item.kobolds.kobold_zombie_drowned_spawn_egg": "Drowned Zombold Spawn Egg",
+      "item.kobolds.kobold_engineer_spawn_egg": "Kobold Engineer Spawn Egg",
+      "item.kobolds.kobold_skeleton_spawn_egg": "Skelebold Spawn Egg",
+      "block.minecraft.banner.kobolds.kobold.lime": "Lime Kobold",
+      "block.minecraft.banner.kobolds.kobold.blue": "Blue Kobold",
+      "subtitles.kobold_death": "I died!",
+      "entity.kobolds.kobold_zombie": "Zombold",
+      "block.minecraft.banner.kobolds.kobold.red": "Red Kobold",
+      "entity.kobolds.kobold_captain": "Kobold Captain",
+      "item.kobolds.kobold_potion_health": "Kobold Potion of Healing",
+      "item.kobolds.kobold_captain_spawn_egg": "Kobold Captain Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kobolds",
+    "modName": "Kobolds",
+    "version": "2.2.12",
+    "description": "Tiny Lizards",
+    "author": "Jusey1",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kobolds",
+    "lockBaseModFiles": true
+  },
+  "mcreatorVersion": 202200348217
+}
