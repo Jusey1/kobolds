@@ -2,12 +2,10 @@ package net.mcreator.kobolds.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.Monster;
@@ -20,7 +18,6 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -37,7 +34,6 @@ import net.mcreator.kobolds.init.KoboldsModEntities;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
 public class KoboldZombieEntity extends Zombie {
 	public KoboldZombieEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(KoboldsModEntities.KOBOLD_ZOMBIE.get(), world);
