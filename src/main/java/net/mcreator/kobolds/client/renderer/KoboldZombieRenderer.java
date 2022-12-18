@@ -1,8 +1,9 @@
 package net.mcreator.kobolds.client.renderer;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.entity.layers.ItemInHandLayer;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
@@ -11,7 +12,6 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
-import net.mcreator.kobolds.procedures.KoboldMilkshakeProcedure;
 import net.mcreator.kobolds.entity.KoboldZombieEntity;
 import net.mcreator.kobolds.client.model.ZomboldModel;
 import net.mcreator.kobolds.client.model.KoboldArmorModel;
@@ -40,7 +40,11 @@ public class KoboldZombieRenderer extends MobRenderer<KoboldZombieEntity, Zombol
 	@Override
 	protected boolean isShaking(KoboldZombieEntity entity) {
 		Level world = entity.level;
-		return KoboldMilkshakeProcedure.execute(world, entity);
+		if (entity.isInWater() && (world.getBlockState(new BlockPos(entity.getX(), entity.getY() + 1, entity.getZ()))).getBlock() == Blocks.WATER) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	@Override
