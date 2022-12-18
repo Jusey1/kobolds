@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "kobolds:kobold_rascal",
-    "weight": 45,
+    "weight": 25,
     "minCount": 1,
     "maxCount": 1
   }
