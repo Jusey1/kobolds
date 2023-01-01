@@ -47,7 +47,7 @@ public class SkeleboldModel<T extends KoboldSkeletonEntity> extends HumanoidMode
 				CubeListBuilder.create().texOffs(3, 15).addBox(-3.0F, 0.0F, -2.0F, 6.0F, 10.0F, 4.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 4.0F, 0.0F));
 		PartDefinition tail = body.addOrReplaceChild("tail",
-				CubeListBuilder.create().texOffs(24, 15).addBox(-1.0F, 6.0F, -4.0F, 1.0F, 12.0F, 1.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(24, 15).addBox(-0.5F, 6.0F, -4.0F, 1.0F, 12.0F, 1.0F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, 0.6109F, 0.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 64, 64);
 	}
