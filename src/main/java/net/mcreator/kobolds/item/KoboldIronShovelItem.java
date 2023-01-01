@@ -9,7 +9,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.kobolds.init.KoboldsModTabs;
-import net.mcreator.kobolds.init.KoboldsModItems;
 
 public class KoboldIronShovelItem extends ShovelItem {
 	public KoboldIronShovelItem() {
@@ -35,7 +34,7 @@ public class KoboldIronShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(KoboldsModItems.KOBOLD_IRON_SHOVEL.get()), new ItemStack(Items.IRON_INGOT));
+				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
 		}, 1, -3f, new Item.Properties().tab(KoboldsModTabs.TAB_KOBOLD_CREATIVE_TAB));
 	}
