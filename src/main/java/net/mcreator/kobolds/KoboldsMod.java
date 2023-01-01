@@ -16,12 +16,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.kobolds.init.KoboldsModTabs;
-import net.mcreator.kobolds.init.KoboldsModSounds;
-import net.mcreator.kobolds.init.KoboldsModItems;
-import net.mcreator.kobolds.init.KoboldsModEntities;
-import net.mcreator.kobolds.init.KoboldsModEnchantments;
-import net.mcreator.kobolds.init.KoboldsModBlocks;
+import net.mcreator.kobolds.init.*;
 import net.mcreator.kobolds.item.KoboldBanner;
 
 import java.util.function.Supplier;
