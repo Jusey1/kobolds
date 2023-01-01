@@ -5,6 +5,7 @@ import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
@@ -13,7 +14,8 @@ import net.minecraft.client.model.geom.builders.CubeDeformation;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.ModelLayerLocation;
-import net.minecraft.client.model.HumanoidModel;
+
+import net.mcreator.kobolds.client.model.KoboldModel;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -26,41 +28,8 @@ public class ZomboldModel<T extends Zombie> extends HumanoidModel<T> {
 	}
 
 	public static LayerDefinition createBodyLayer() {
-		MeshDefinition meshdefinition = HumanoidModel.createMesh(CubeDeformation.NONE, 0.0F);
+		MeshDefinition meshdefinition = KoboldModel.createMesh(CubeDeformation.NONE, 0.0F);
 		PartDefinition partdefinition = meshdefinition.getRoot();
-		PartDefinition head = partdefinition.addOrReplaceChild("head",
-				CubeListBuilder.create().texOffs(0, 0).addBox(-3.5F, -7.0F, -3.5F, 7.0F, 7.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(22, 0)
-						.addBox(-2.5F, -3.0F, -6.5F, 5.0F, 3.0F, 3.0F, new CubeDeformation(0.0F)).texOffs(1, 3)
-						.addBox(-0.5F, -3.85F, -5.5F, 1.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 4.0F, -0.5F));
-		PartDefinition hat = partdefinition.addOrReplaceChild("hat",
-				CubeListBuilder.create().texOffs(0, 50).addBox(-3.5F, -7.0F, -3.5F, 7.0F, 7.0F, 7.0F, new CubeDeformation(0.25F)).texOffs(17, 52)
-				.addBox(-6.0F, -5.07F, -6.0F, 12.0F, 0.0F, 12.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 4.0F, -0.5F));
-		PartDefinition leftHorn = head.addOrReplaceChild("left_horn",
-				CubeListBuilder.create().texOffs(36, 0).addBox(-0.5F, -4.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(1.5F, -7.0F, 2.0F, -0.6109F, 0.3054F, 0.1745F));
-		PartDefinition rightHorn = head.addOrReplaceChild("right_horn",
-				CubeListBuilder.create().texOffs(45, 0).addBox(-1.5F, -4.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(-1.5F, -7.0F, 2.0F, -0.6109F, -0.3054F, -0.1745F));
-		PartDefinition rightArm = partdefinition.addOrReplaceChild("right_arm",
-				CubeListBuilder.create().texOffs(46, 16).addBox(-3.0F, -0.85F, -1.5F, 3.0F, 10.0F, 3.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(-3.0F, 5.0F, 0.0F));
-		PartDefinition leftArm = partdefinition.addOrReplaceChild("left_arm",
-				CubeListBuilder.create().texOffs(33, 16).addBox(0.0F, -0.85F, -1.5F, 3.0F, 10.0F, 3.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(3.0F, 5.0F, 0.0F));
-		PartDefinition rightLeg = partdefinition.addOrReplaceChild("right_leg",
-				CubeListBuilder.create().texOffs(13, 31).addBox(-1.5F, 0.0F, -1.5F, 3.0F, 10.0F, 3.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(-1.5F, 14.0F, 0.0F));
-		PartDefinition leftLeg = partdefinition.addOrReplaceChild("left_leg",
-				CubeListBuilder.create().texOffs(0, 31).addBox(-1.5F, 0.0F, -1.5F, 3.0F, 10.0F, 3.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(1.5F, 14.0F, 0.0F));
-		PartDefinition body = partdefinition.addOrReplaceChild("body",
-				CubeListBuilder.create().texOffs(3, 15).addBox(-3.0F, 0.0F, -2.0F, 6.0F, 10.0F, 4.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 4.0F, 0.0F));
-		PartDefinition tail = body.addOrReplaceChild("tail",
-				CubeListBuilder.create().texOffs(24, 15).addBox(-1.0F, 6.0F, -4.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, 0.6109F, 0.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 64, 64);
 	}
 
